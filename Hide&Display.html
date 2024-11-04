@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(id) {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+function Hide(id) //give the id value
+{
+ document.getElementById(id).style.display="none";
+}
+function display_the_Hidden(id) //give the id value
+{
+ document.getElementById(id).style.display="block";
+ }
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p id="C++">this pragraph will be hidden</p>
+<button type="button" onclick="Hide('C++')">Hide</button>
+<button type="button" onclick="display_the_Hidden('C++')">Display</button>
+
+</body>
+</html> 

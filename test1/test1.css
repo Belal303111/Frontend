@@ -1,0 +1,28 @@
+h1{
+    font-weight: bold;
+    color: green;
+    font: 100px;
+}
+p {
+    font-weight: normal;
+    color: gray;
+}
+.client{
+    font-weight: bolder;
+    color: black;
+}
+html{
+    background-attachment: fixed;
+    background-image: url("/../../../HTML_Projects/3.jpg");
+    background-position: top right;
+    background-repeat: no-repeat ;
+    background-size: 200px;
+    background-color: firebrick;
+    line-clamp: inherit;
+}
+.button{
+    color: red;
+    background-color: black;
+    size: 50px;
+    background-position: bottom left;
+}
